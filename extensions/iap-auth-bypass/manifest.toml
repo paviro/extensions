@@ -4,7 +4,7 @@ description = "Let accessories use authentication-gated iAP commands without an 
 version = "0.1.0"
 author = "RepriseOS contributors"
 license = "GPL-3.0-only"
-api = "1.29"
+api = "1.89"
 stability = "beta"
 category = "system"
 

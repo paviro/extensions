@@ -4,7 +4,7 @@ description = "Stop the EQ presets from distorting, and add a Custom preset with
 version = "0.1.0"
 author = "RepriseOS contributors"
 license = "GPL-3.0-only"
-api = "1.84"
+api = "1.89"
 stability = "beta"
 category = "effects"
 

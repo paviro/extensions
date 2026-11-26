@@ -4,7 +4,7 @@ description = "Turns off the EU volume cap: 15% more volume with the limit switc
 version = "0.1.0"
 author = "RepriseOS contributors"
 license = "GPL-3.0-only"
-api = "1.30"
+api = "1.89"
 stability = "beta"
 category = "media"
 
