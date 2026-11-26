@@ -1,0 +1,13 @@
+id = "clicker-modes"
+name = "Clicker Modes"
+description = "Choose where the click wheel sound plays: the iPod's speaker, headphones, both or off."
+version = "0.1.0"
+author = "RepriseOS contributors"
+license = "GPL-3.0-only"
+api = "1.28"
+stability = "beta"
+category = "system"
+
+[[module]]
+name = "main"
+trigger = "always"

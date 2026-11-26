@@ -9,8 +9,14 @@ from RevolaOS extensions, revision 900d5c4ea61e31834d85f9b62c353ce48e58419a,
 and derive from the RepriseOS core: Album Artists by lgreitis, File Info by
 lgreitis and paviro, Play Next and Play Last by lgreitis and brilliant-alien,
 and Up Next by Alex Ball. Their Settings icons are Cupertino Icons glyphs
-(MIT), see the LICENSE.cupertino-icons beside each. The original RevolaOS
-notice follows.
+(MIT), see the LICENSE.cupertino-icons beside each. Equalizer, Clicker Modes,
+iAP Auth Bypass and EU Volume Limit are from RevolaOS extensions, revision
+509cd1630325a53495798541c170e72854bbb17e. Equalizer, Clicker Modes and iAP
+Auth Bypass derive from the RepriseOS core: Custom EQ by lgreitis and paviro,
+clicker modes by Alex Ball and lgreitis, iAP auth bypass by RaduTek; EU Volume
+Limit is by paviro. Equalizer's Settings icon is the core's own settings-eq
+art; the other three are Cupertino Icons glyphs (MIT), see the
+LICENSE.cupertino-icons beside each. The original RevolaOS notice follows.
 
 RevolaOS
 Copyright (C) 2026 The RevolaOS Authors. GPL-3.0-only.

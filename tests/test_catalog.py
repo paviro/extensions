@@ -40,8 +40,9 @@ class CatalogTests(unittest.TestCase):
         for entry in entries.values():
             assets = [entry["package"]]
             if entry["category"] != "library":
-                self.assertTrue(entry["screenshots"][0]["alt"])
-                self.assertEqual(entry["screenshots"][0]["width"], 320)
+                for shot in entry["screenshots"]:
+                    self.assertTrue(shot["alt"])
+                    self.assertEqual(shot["width"], 320)
                 assets += [entry["icon"], *entry["screenshots"]]
             for asset in assets:
                 data = (self.out / asset["url"]).read_bytes()

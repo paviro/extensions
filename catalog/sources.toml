@@ -37,3 +37,23 @@ tag_prefix = "file-info/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/playback-queue"
 tag_prefix = "playback-queue/v"
+
+[equalizer]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/equalizer"
+tag_prefix = "equalizer/v"
+
+[clicker-modes]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/clicker-modes"
+tag_prefix = "clicker-modes/v"
+
+[iap-auth-bypass]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/iap-auth-bypass"
+tag_prefix = "iap-auth-bypass/v"
+
+[eu-volume-limit]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/eu-volume-limit"
+tag_prefix = "eu-volume-limit/v"

@@ -1,0 +1,7 @@
+details = "Open Settings > Clicker and press Select to cycle Off, Speaker, Headphones and Both."
+
+icon = "assets/settings-clicker-modes.png"
+
+[[screenshots]]
+file = "screenshots/settings.png"
+alt = "Settings > Clicker set to Headphones, with the Headphones description in the preview pane."

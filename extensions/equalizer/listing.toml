@@ -1,0 +1,5 @@
+details = "Choose Custom at the end of Settings > EQ, then open Settings > Edit EQ to shape its five bands. Every preset runs through the extension's own filter chain, which keeps loud passages from distorting."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Custom EQ editor, opened from Settings > Edit EQ: the response curve above the five bands and their parameters."
