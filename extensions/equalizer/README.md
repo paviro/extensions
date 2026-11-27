@@ -4,7 +4,7 @@ Partly adapted from the RepriseOS core's [Custom EQ](https://github.com/RepriseO
 
 Apple's EQ rounds each of its three filter stages to 16 bits, so boosting presets distort loud passages. Equalizer runs the same presets through its own filter chain with 42 dB of headroom between stages, and lowers each preset by its peak gain. A look-ahead limiter at the end catches the peaks the precut misses and delays the output by about 0.7 ms. Off and Flat pass audio through untouched.
 
-The EQ list gains a Custom preset after Apple's. While Custom is selected, Settings shows an Edit EQ row to shape it. The wheel picks a band, Select steps into its parameters and then edits one, Menu goes back. Holding Select resets the highlighted band or parameter. Changes apply immediately. Moving the Hold switch shows the response curve, precut included. Like Flat, Custom is not replaced by a track's own EQ setting. Each of the five bands has:
+The EQ list gains a Custom preset after Apple's. While Custom is selected, an Edit EQ row shapes it. The row sits after EQ, in Settings > Sound while the Sound Menu extension runs and in Settings otherwise. The wheel picks a band, Select steps into its parameters and then edits one, Menu goes back. Holding Select resets the highlighted band or parameter. Changes apply immediately. Moving the Hold switch shows the response curve, precut included. Like Flat, Custom is not replaced by a track's own EQ setting. Each of the five bands has:
 
 | Parameter | Range | Default |
 |---|---|---|

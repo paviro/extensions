@@ -44,7 +44,8 @@ static const struct rv_menu_entry entries[] = {
     RV_MENU_ENTRY(RV_MENU_SETTINGS, RV_SETTINGS_VOLUME_LIMIT,
                   RV_ROW_PUSH("Balance", "editor"),
                   .pane = RV_PANE(.bitmap = RV_BITMAP("settings-balance")),
-                  .caption_setting = KEY_BALANCE),
+                  .caption_setting = KEY_BALANCE, .host = "sound-menu",
+                  .host_screen = "sound", .host_after = "volume-limit"),
 };
 
 static const struct rv_descriptor extension = {

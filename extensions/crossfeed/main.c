@@ -73,7 +73,8 @@ static const struct rv_menu_entry entries[] = {
     RV_MENU_ENTRY(RV_MENU_SETTINGS, RV_SETTINGS_SOUND_CHECK,
                   RV_ROW_PUSH("Crossfeed", "editor"),
                   .pane = RV_PANE(.bitmap = RV_BITMAP("settings-crossfeed")),
-                  .caption_setting = KEY_MODE),
+                  .caption_setting = KEY_MODE, .host = "sound-menu",
+                  .host_screen = "sound", .host_after = "sound-check"),
 };
 
 static const struct rv_descriptor extension = {

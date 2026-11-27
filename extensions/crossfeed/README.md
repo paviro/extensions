@@ -24,7 +24,7 @@ The plot shows the ear's own channel and the one fed across, with the precut app
 
 Cross is the level of the other channel below the Cutoff, Highs its level above. A centred passage reaches each ear through both paths, so below the Cutoff it plays at Direct plus Cross, about +2.5 dB at the defaults. Precut lowers both paths: Auto picks the smallest 0.5 dB step that keeps the largest possible sum at or below 0 dB. Simple has no precut and can go up to 3.4 dB over when the channels differ. A look-ahead limiter catches what still goes over, in Simple or with a fixed precut, and delays the output by about 0.7 ms.
 
-The Crossfeed row sits after Sound Check, with the mode as its caption. Off costs nothing per sample.
+The Crossfeed row sits after Sound Check, in Settings > Sound while the Sound Menu extension runs and in Settings otherwise, with the mode as its caption. Off costs nothing per sample.
 
 | | |
 |---|---|

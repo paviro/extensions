@@ -12,7 +12,7 @@ Settings > Balance draws the stereo image as a lobe in a half disc, the ears at 
 | R 1 dB to R 20 dB | the left ear that much quieter |
 | R only | the right ear alone |
 
-Changes apply immediately and are saved. The Balance row sits after Volume Limit, with the position as its caption. Center costs nothing per sample.
+Changes apply immediately and are saved. The Balance row sits after Volume Limit, in Settings > Sound while the Sound Menu extension runs and in Settings otherwise, with the position as its caption. Center costs nothing per sample.
 
 | | |
 |---|---|

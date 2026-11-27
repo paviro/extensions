@@ -204,7 +204,8 @@ static const struct rv_menu_entry entries[] = {
                   RV_ROW_ACTION("Edit EQ", open_editor),
                   .pane = RV_PANE(.caption = "Adjust Your Sound",
                                   .bitmap = RV_BITMAP("settings-eq")),
-                  .shown_by = KEY_CUSTOM_SHOWN),
+                  .shown_by = KEY_CUSTOM_SHOWN, .host = "sound-menu",
+                  .host_screen = "sound", .host_after = "eq"),
 };
 
 static const struct rv_descriptor extension = {
