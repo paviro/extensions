@@ -4,11 +4,12 @@ Balance, Crossfeed, DSP and the Night Shift scheduling and gamma code are from
 RevolaOS extensions, revision 36d197b180e55a304ea0468de4330c0d07fe715f.
 Night Shift derives from kayboll’s RepriseOS work. Playback Log derives from
 the work of brilliant-alien and lgreitis in osos-lab. Its Settings artwork is
-from osos-lab commit 10485fa. Fast Seek and Long Audio Fix are from
-RevolaOS extensions, revision c179e6dc21ea8a32e46bf9af1d0906c8793190e8;
-they are the same fixes as kayboll’s RepriseOS pull requests 63 and 62.
-Their catalog icons are Cupertino Icons glyphs (MIT), see the
-LICENSE.cupertino-icons beside each. The original
+from osos-lab commit 10485fa. Sleep Timer, Fast Seek and Long Audio Fix are
+from RevolaOS extensions, revision c179e6dc21ea8a32e46bf9af1d0906c8793190e8.
+Sleep Timer is based on kayboll’s RepriseOS Sleep Timer shortcut; Fast Seek
+and Long Audio Fix are the same fixes as kayboll’s RepriseOS pull requests
+63 and 62. Their catalog icons and the Sleep Timer moon are Cupertino Icons
+glyphs (MIT), see the LICENSE.cupertino-icons beside each. The original
 RevolaOS notice follows.
 
 RevolaOS

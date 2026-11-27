@@ -32,3 +32,8 @@ tag_prefix = "fast-seek/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/long-audio-fix"
 tag_prefix = "long-audio-fix/v"
+
+[sleep-timer]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/sleep-timer"
+tag_prefix = "sleep-timer/v"

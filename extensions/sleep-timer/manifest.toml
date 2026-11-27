@@ -1,0 +1,13 @@
+id = "sleep-timer"
+name = "Sleep Timer"
+description = "Set Apple's sleep timer from the Now Playing context menu and see the minutes left in Now Playing."
+version = "0.1.0"
+author = "RepriseOS and RevolaOS contributors"
+license = "GPL-3.0-only"
+api = "1.82"
+stability = "beta"
+category = "media"
+
+[[module]]
+name = "main"
+trigger = "always"

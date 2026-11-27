@@ -1,0 +1,15 @@
+details = "Hold Select in Now Playing and choose Sleep Timer to set Apple's sleep timer without leaving the song. While it runs, Now Playing shows the minutes left before the shuffle icon."
+
+icon = "assets/settings-sleep-timer.png"
+
+[[screenshots]]
+file = "screenshots/context-menu.png"
+alt = "The Now Playing context menu of an audiobook with Sleep Timer highlighted, above File Info and Cancel."
+
+[[screenshots]]
+file = "screenshots/list.png"
+alt = "The Sleep Timer list: Off, 15, 30, 60, 90 and 120 Minutes, with 30 Minutes highlighted."
+
+[[screenshots]]
+file = "screenshots/now-playing.png"
+alt = "Now Playing with 30 and a moon in the top right, where the shuffle icon goes."
