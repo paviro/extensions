@@ -74,5 +74,5 @@ const char *schedule_caption(void)
 {
     struct schedule s;
     schedule_read(&s);
-    return s.state == SCHEDULE_NO_ZONE ? "Set a time zone" : "Sunset to Sunrise";
+    return s.state == SCHEDULE_NO_ZONE ? "Set a Time Zone" : "Sunset to Sunrise";
 }

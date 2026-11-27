@@ -2724,7 +2724,7 @@ static void schedule_contracts(void)
     /* Without a known zone: day, and the caption asks for one. */
     schedule_read(&s);
     assert(s.state == SCHEDULE_NO_ZONE && !schedule_night(&s));
-    assert(!strcmp(schedule_caption(), "Set a time zone"));
+    assert(!strcmp(schedule_caption(), "Set a Time Zone"));
     /* Berlin, 21 June: sunset 21:33 CEST, sunrise 04:43 (NOAA, within 3 minutes). */
     put16(host_zones + 90 * TimeZone_bytes + TimeZone_zone_id, 0x1234);
     memcpy(host_app + App_browser, &(uint8_t *){host_browser}, sizeof(void *));
@@ -2763,7 +2763,7 @@ static void schedule_contracts(void)
     put16(host_preferences + PreferencesFile_time_zone_id, 0x7777);
     schedule_read(&s);
     assert(s.state == SCHEDULE_NO_ZONE && !schedule_night(&s));
-    assert(!strcmp(schedule_caption(), "Set a time zone"));
+    assert(!strcmp(schedule_caption(), "Set a Time Zone"));
     put16(host_preferences + PreferencesFile_time_zone_id, 0x1234);
     clock_now[DateTime_hour] = 23, clock_now[DateTime_minute] = 0;
 }

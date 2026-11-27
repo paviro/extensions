@@ -26,7 +26,7 @@ void schedule_read(struct schedule *out);
 int schedule_night(const struct schedule *s);
 /* `value` folded into 0..1439. */
 int schedule_minute(int value);
-/* "Sunset to Sunrise", or "Set a time zone" without a known zone. */
+/* "Sunset to Sunrise", or "Set a Time Zone" without a known zone. */
 const char *schedule_caption(void);
 
 #endif

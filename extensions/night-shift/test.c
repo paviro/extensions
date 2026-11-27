@@ -146,7 +146,7 @@ static void night_shift_contracts(void)
     /* Auto without a known zone stays neutral and says so. */
     night_shift_set(NIGHT_SHIFT_AUTO);
     assert(gamma_loads == loads + 2);
-    assert(!strcmp(night_shift_caption(), "Set a time zone"));
+    assert(!strcmp(night_shift_caption(), "Set a Time Zone"));
     /* Berlin, 21 June, 23:00 CEST: an hour and a half after sunset. */
     put16(host_zones + 90 * TimeZone_bytes + TimeZone_zone_id, 0x1234);
     memcpy(host_app + App_browser, &(uint8_t *){host_browser}, sizeof(void *));
@@ -210,7 +210,7 @@ static void schedule_contracts(void)
     put16(host_preferences + PreferencesFile_time_zone_id, 0x7777);
     schedule_read(&s);
     assert(s.state == SCHEDULE_NO_ZONE && !schedule_night(&s));
-    assert(!strcmp(schedule_caption(), "Set a time zone"));
+    assert(!strcmp(schedule_caption(), "Set a Time Zone"));
     put16(host_preferences + PreferencesFile_time_zone_id, 0x1234);
     clock_now[DateTime_hour] = 23, clock_now[DateTime_minute] = 0;
 }

@@ -22,7 +22,7 @@ A theme that cannot be read leaves the look unchanged. One that fails part way t
 
 ## Auto
 
-Dark Mode's Auto follows sunset and sunrise in the city set under Settings > Date & Time > Time Zone, by the iPod's clock, checked once a minute: dark from the sunset minute to the sunrise minute. Without a time zone, Auto is light and says "Set a time zone".
+Dark Mode's Auto follows sunset and sunrise in the city set under Settings > Date & Time > Time Zone, by the iPod's clock, checked once a minute: dark from the sunset minute to the sunrise minute. Without a time zone, Auto is light and says "Set a Time Zone".
 
 A theme with one appearance turns Dark Mode's Auto into the value it shows, as it does On and Off.
 
