@@ -452,7 +452,7 @@ int main(void)
     contexts[0].browser = browser;
     RV_FIELD(owner, MediaBrowser_track_data, void *) = track_data;
     RV_FIELD(list, MediaList_root, void *) = root;
-    RV_FIELD(root, MediaEntry_tracks, uint16_t) = 6;
+    RV_FIELD(root, MediaEntry_groups, uint32_t) = 6; /* the widened track count */
     for (unsigned i = 0; i < 6; i++) {
         RV_FIELD(entries[i], MediaEntry_song_record, void *) = records[i];
         RV_FIELD(records[i], 0, void *) = track_data;

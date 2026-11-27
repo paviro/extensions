@@ -466,8 +466,10 @@ static uint32_t build(void *browser)
     struct MediaList *list = MediaBrowser_GetCurrentList(browser);
     if (!track_data || !list || !RV_FIELD(list, MediaList_root, void *))
         return 0;
+    /* The core widens the root's track count to a word at MediaEntry_groups,
+     * so a library may pass 65,535 tracks. */
     uint32_t count = RV_FIELD(RV_FIELD(list, MediaList_root, uint8_t *),
-                              MediaEntry_tracks, uint16_t);
+                              MediaEntry_groups, uint32_t);
     if (!count)
         return 0;
     /* Apple's Album Artist order exists only when the import built it; there

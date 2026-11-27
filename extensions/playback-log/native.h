@@ -26,7 +26,9 @@ struct osos_media_entry {
         } group;
     };
 
-    uint16_t groups, tracks;
+    /* The core widens the track count to this word and keeps the container
+     * count in the upper half of `flags`. */
+    uint32_t tracks;
 };
 
 struct osos_media_record {

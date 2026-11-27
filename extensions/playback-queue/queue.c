@@ -29,9 +29,11 @@ static struct MediaEntry *root_of(struct MediaList *list)
     return RV_FIELD(list, MediaList_root, struct MediaEntry *);
 }
 
+/* The core keeps a list's track count as a word at MediaEntry_groups, so a
+ * library may pass 65,535 tracks. */
 static uint32_t tracks_of(struct MediaList *list)
 {
-    return RV_FIELD(root_of(list), MediaEntry_tracks, uint16_t);
+    return RV_FIELD(root_of(list), MediaEntry_groups, uint32_t);
 }
 
 static uint32_t count_of(void *player)
