@@ -1,0 +1,19 @@
+id = "homebrew"
+name = "Homebrew"
+description = "Apps and games from /Reprise/Apps and /Reprise/Games under Extras, started without an Apple signature."
+version = "0.1.0"
+author = "RepriseOS contributors"
+license = "GPL-3.0-only"
+api = "1.89"
+stability = "beta"
+category = "system"
+content = ["Games", "Apps"]
+
+[[module]]
+name = "main"
+trigger = "always"
+
+[[asset]]
+name = "apps"
+file = "assets/apps.png"
+pane = "picture"

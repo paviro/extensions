@@ -1,0 +1,15 @@
+details = "In disk mode, copy a package folder to /Reprise/Games/<id>/ or /Reprise/Apps/<id>/. Games appear in Extras > Games beside the stock ones; Apps gets its own row under Extras. Manifests in those two folders skip Apple's signature check; games under iPod_Control keep it."
+
+icon = "assets/settings-homebrew.png"
+
+[[screenshots]]
+file = "screenshots/apps-row.png"
+alt = "Extras with the Apps row selected and its picture in the pane."
+
+[[screenshots]]
+file = "screenshots/apps.png"
+alt = "The Apps list with a homebrew app."
+
+[[screenshots]]
+file = "screenshots/games.png"
+alt = "Extras > Games listing a homebrew game beside the stock games."

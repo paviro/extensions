@@ -57,3 +57,8 @@ tag_prefix = "iap-auth-bypass/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/eu-volume-limit"
 tag_prefix = "eu-volume-limit/v"
+
+[homebrew]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/homebrew"
+tag_prefix = "homebrew/v"

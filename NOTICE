@@ -16,7 +16,10 @@ Auth Bypass derive from the RepriseOS core: Custom EQ by lgreitis and paviro,
 clicker modes by Alex Ball and lgreitis, iAP auth bypass by RaduTek; EU Volume
 Limit is by paviro. Equalizer's Settings icon is the core's own settings-eq
 art; the other three are Cupertino Icons glyphs (MIT), see the
-LICENSE.cupertino-icons beside each. The original RevolaOS notice follows.
+LICENSE.cupertino-icons beside each. Homebrew is from RevolaOS extensions,
+revision 509cd1630325a53495798541c170e72854bbb17e, and derives from the
+RepriseOS core's homebrew patch by lgreitis; its catalog icon is a Cupertino
+Icons glyph (MIT). The original RevolaOS notice follows.
 
 RevolaOS
 Copyright (C) 2026 The RevolaOS Authors. GPL-3.0-only.
