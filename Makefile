@@ -21,7 +21,7 @@ check:
 	$(PYTHON) extensions/equalizer/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/file-info/tests/run.py "$(abspath $(SDK))"
 	@mkdir -p "$(OUT)"
-	$(CC) $(TEST_FLAGS) extensions/night-shift/test.c -o "$(OUT)/test-night-shift"
+	$(CC) $(TEST_FLAGS) -Iextensions/shared extensions/night-shift/test.c -o "$(OUT)/test-night-shift"
 	"$(OUT)/test-night-shift"
 	$(CC) $(TEST_FLAGS) extensions/playback-log/test.c -o "$(OUT)/test-playback-log"
 	"$(OUT)/test-playback-log"

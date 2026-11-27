@@ -41,8 +41,8 @@ static uint8_t host_preferences[PreferencesFile_time_zone_id + 4];
 static uint8_t host_browser[MediaBrowser_preferences + sizeof(void *)];
 static uint8_t host_app[App_browser + sizeof(void *)];
 void *App = host_app;
-#include "sun.c"
-#include "schedule.c"
+#include "../shared/sun.c"
+#include "../shared/schedule.c"
 #include "night_shift.c"
 
 static int allocations;

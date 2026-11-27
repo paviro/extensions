@@ -1,7 +1,6 @@
 /* SPDX-License-Identifier: GPL-3.0-only */
 
 #include "schedule.h"
-#include "ext.h"
 #include "osos-2.0.5.h"
 #include "sun.h"
 #include <stddef.h>

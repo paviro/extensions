@@ -62,9 +62,10 @@ def supersampled(work, shapes):
     return [mask]
 
 
-def glyph(work, font, code, reach):
+def glyph(work, font, code, reach, mirror=False):
     """magick arguments for a mask of the font's glyph at `code`, fitted into a
-    square of side `reach` centred on the art box."""
+    square of side `reach` centred on the art box, flipped left to right when
+    `mirror` is set."""
     path = work / f"{code:x}.png"
     magick(
         "-background",
@@ -78,6 +79,7 @@ def glyph(work, font, code, reach):
         f"label:{chr(code)}",
         "-trim",
         "+repage",
+        *(["-flop"] if mirror else []),
         "-resize",
         f"{reach}x{reach}",
         path,
