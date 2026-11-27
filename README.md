@@ -9,5 +9,6 @@ This repository hosts the source for these RepriseOS extensions and accepts prop
 - [Sleep Timer](extensions/sleep-timer/) sets Apple's sleep timer from the Now Playing context menu and shows the minutes left in Now Playing.
 - [Fast Seek](extensions/fast-seek/) makes seeks in long AAC and Apple Lossless files jump to the target instead of stepping through every frame.
 - [Long Audio Fix](extensions/long-audio-fix/) plays AAC and Apple Lossless files longer than 13.5 hours to the end.
+- [Chapter Menu](extensions/chapter-menu/) lists the chapters of a podcast or iTunes U episode, or of the playing track, in its context menu and jumps to one.
 
 To add your extension to the catalog, open a PR following the [submission guide](catalog/README.md). Later releases are picked up automatically.

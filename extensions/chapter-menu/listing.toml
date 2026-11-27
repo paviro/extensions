@@ -1,0 +1,11 @@
+details = "Hold Select on a podcast or iTunes U episode, or in Now Playing, and choose Chapters to see the chapter titles and start times. Choosing one plays from there."
+
+icon = "assets/settings-chapter-menu.png"
+
+[[screenshots]]
+file = "screenshots/context-menu.png"
+alt = "The context menu of a podcast episode with Chapters highlighted, between Add to On-The-Go and File Info."
+
+[[screenshots]]
+file = "screenshots/list.png"
+alt = "The Chapters list of an episode: Part 1 to Part 9 with their start times, Part 1 highlighted."

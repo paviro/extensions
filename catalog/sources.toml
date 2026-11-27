@@ -37,3 +37,8 @@ tag_prefix = "long-audio-fix/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/sleep-timer"
 tag_prefix = "sleep-timer/v"
+
+[chapter-menu]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/chapter-menu"
+tag_prefix = "chapter-menu/v"

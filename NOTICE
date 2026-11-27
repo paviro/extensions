@@ -9,7 +9,9 @@ from RevolaOS extensions, revision c179e6dc21ea8a32e46bf9af1d0906c8793190e8.
 Sleep Timer is based on kayboll’s RepriseOS Sleep Timer shortcut; Fast Seek
 and Long Audio Fix are the same fixes as kayboll’s RepriseOS pull requests
 63 and 62. Their catalog icons and the Sleep Timer moon are Cupertino Icons
-glyphs (MIT), see the LICENSE.cupertino-icons beside each. The original
+glyphs (MIT), see the LICENSE.cupertino-icons beside each. Chapter Menu is
+from RevolaOS extensions, revision 72562b52fe7e4074a3479caac86b84ec1d285966;
+its catalog icon is a Cupertino Icons glyph (MIT) as well. The original
 RevolaOS notice follows.
 
 RevolaOS
