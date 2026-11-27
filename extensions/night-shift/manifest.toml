@@ -1,7 +1,7 @@
 id = "night-shift"
 name = "Night Shift"
 description = "Warm the display manually or follow sunset and sunrise in the iPod's time zone."
-version = "0.1.3"
+version = "0.1.4"
 author = "RepriseOS and RevolaOS contributors"
 license = "GPL-3.0-only"
 api = "1.89"
