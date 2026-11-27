@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-only
 SDK ?= ../osos-lab/rvx-sdk
 OUT ?= build
-extensions := balance chapter-menu crossfeed dsp fast-seek long-audio-fix night-shift \
+extensions := balance chapter-marks chapter-menu crossfeed dsp fast-seek long-audio-fix night-shift \
               playback-log sleep-timer
 
 .PHONY: all $(extensions)
@@ -15,6 +15,7 @@ $(extensions):
 .PHONY: check
 check:
 	$(PYTHON) extensions/balance/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/chapter-marks/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/chapter-menu/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/crossfeed/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/dsp/tests/run.py "$(abspath $(SDK))"

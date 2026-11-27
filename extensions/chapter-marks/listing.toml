@@ -1,0 +1,11 @@
+details = "Hides the chapter marks on the Now Playing progress bar once a track has so many that they blur into a band, about 55 or more. Tracks with fewer chapters keep the stock marks."
+
+icon = "assets/settings-chapter-marks.png"
+
+[[screenshots]]
+file = "screenshots/stock.png"
+alt = "Now Playing of an episode with 80 chapters as Apple draws it: the progress bar is a dense comb of chapter marks."
+
+[[screenshots]]
+file = "screenshots/hidden.png"
+alt = "The same episode with Chapter Marks: a plain progress bar."

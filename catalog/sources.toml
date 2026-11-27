@@ -42,3 +42,8 @@ tag_prefix = "sleep-timer/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/chapter-menu"
 tag_prefix = "chapter-menu/v"
+
+[chapter-marks]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/chapter-marks"
+tag_prefix = "chapter-marks/v"
