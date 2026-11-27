@@ -4,7 +4,10 @@ Balance, Crossfeed, DSP and the Night Shift scheduling and gamma code are from
 RevolaOS extensions, revision 36d197b180e55a304ea0468de4330c0d07fe715f.
 Night Shift derives from kayboll’s RepriseOS work. Playback Log derives from
 the work of brilliant-alien and lgreitis in osos-lab. Its Settings artwork is
-from osos-lab commit 10485fa. The original RevolaOS notice follows.
+from osos-lab commit 10485fa. Progress Indicator is from RevolaOS extensions,
+revision 72562b52fe7e4074a3479caac86b84ec1d285966. Its catalog icon is a
+Cupertino Icons glyph (MIT), see the LICENSE.cupertino-icons beside it. The
+original RevolaOS notice follows.
 
 RevolaOS
 Copyright (C) 2026 The RevolaOS Authors. GPL-3.0-only.

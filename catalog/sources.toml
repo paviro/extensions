@@ -22,3 +22,8 @@ tag_prefix = "playback-log/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/dsp"
 tag_prefix = "dsp/v"
+
+[progress-indicator]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/progress-indicator"
+tag_prefix = "progress-indicator/v"

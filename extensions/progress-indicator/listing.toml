@@ -1,0 +1,7 @@
+details = "Podcast and iTunes U lists show a half-filled circle next to an item you have started but not finished; unplayed items keep the full dot and finished ones none. The circle follows the saved position, or the live one while the item plays."
+
+icon = "assets/settings-progress-indicator.png"
+
+[[screenshots]]
+file = "screenshots/podcast-list.png"
+alt = "A podcast's episode list: a full dot before the unplayed episode, a half-filled circle before the partly played one and none before the finished one."
