@@ -24,8 +24,10 @@ a32d616f5a06, and derives from the RepriseOS core's Dark Mode by lgreitis and
 Alex Ball; its Settings icons are Cupertino Icons glyphs (MIT), see the
 LICENSE.cupertino-icons beside them, and the Classic theme it carries is built
 by the rvt compiler in themes/ (see themes/NOTICE). Night Shift's hosted row and
-choice screen are from RevolaOS extensions, revision d04fa7d. The original
-RevolaOS notice follows.
+choice screen are from RevolaOS extensions, revision d04fa7d. Sound Menu is from
+RevolaOS extensions, revision a32d616f5a06; its icon is a Cupertino Icons glyph
+(MIT), see the LICENSE.cupertino-icons beside it. The original RevolaOS notice
+follows.
 
 RevolaOS
 Copyright (C) 2026 The RevolaOS Authors. GPL-3.0-only.

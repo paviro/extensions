@@ -26,3 +26,4 @@ Regenerate this page with `python3 tools/extension_bitmaps_doc.py`.
 | `night-shift` | `settings-night-shift` | 78x121 | mask8 | - | yes |
 | `playback-log` | `settings-playback-log` | 78x121 | mask8 | - | yes |
 | `reprise` | `settings-info` | 78x121 | mask8 | - | yes |
+| `sound-menu` | `settings-sound` | 78x121 | mask8 | - | yes |

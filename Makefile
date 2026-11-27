@@ -2,8 +2,8 @@
 SDK ?= ../osos-lab/rvx-sdk
 OUT ?= build
 extensions := album-artists appearance balance clicker-modes crossfeed dsp equalizer \
-              eu-volume-limit file-info homebrew iap-auth-bypass night-shift playback-log \
-              playback-queue
+              eu-volume-limit file-info homebrew iap-auth-bypass night-shift \
+              playback-log playback-queue sound-menu
 
 .PHONY: all $(extensions)
 all: $(extensions) $(OUT)/assets.json

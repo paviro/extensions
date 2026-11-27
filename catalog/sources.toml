@@ -67,3 +67,8 @@ tag_prefix = "eu-volume-limit/v"
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/homebrew"
 tag_prefix = "homebrew/v"
+
+[sound-menu]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/sound-menu"
+tag_prefix = "sound-menu/v"

@@ -11,6 +11,7 @@ This repository hosts the source for these RepriseOS extensions and accepts prop
 - [Playback Queue](extensions/playback-queue/) adds Play Next, Play Last and an Up Next screen to edit the queue.
 - [Crossfeed](extensions/crossfeed/) blends a little of each stereo channel into the other for headphone listening. It uses the included [DSP library](extensions/dsp/).
 - [Equalizer](extensions/equalizer/) runs the EQ presets without distortion and adds a Custom preset with five bands. It uses the included [DSP library](extensions/dsp/).
+- [Sound Menu](extensions/sound-menu/) adds Settings > Sound with Apple's Volume Limit, EQ and Sound Check rows and the audio extensions' rows after them.
 - [Clicker Modes](extensions/clicker-modes/) lets Settings > Clicker choose the speaker, the headphones, both or off.
 - [iAP Auth Bypass](extensions/iap-auth-bypass/) lets accessories use authentication-gated iAP commands without an Apple authentication chip.
 - [EU Volume Limit](extensions/eu-volume-limit/) gives an EU iPod the volume behaviour of a non-EU one when its limit switch is off.

@@ -1,0 +1,5 @@
+details = "Adds Settings > Sound with Apple's Volume Limit, EQ and Sound Check rows and the audio extensions' rows after them. Without the extension every row is back in Settings."
+
+[[screenshots]]
+file = "screenshots/sound.png"
+alt = "Settings > Sound with Volume Limit, Balance, EQ, Sound Check and the audio extensions' rows."

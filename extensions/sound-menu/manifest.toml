@@ -1,0 +1,18 @@
+id = "sound-menu"
+name = "Sound Menu"
+description = "A Sound menu in Settings with Apple's Volume Limit, EQ and Sound Check and the audio extensions' rows."
+version = "0.1.0"
+author = "RevolaOS"
+license = "GPL-3.0-only"
+api = "1.89"
+stability = "alpha"
+category = "system"
+
+[[module]]
+name = "main"
+trigger = "always"
+
+[[asset]]
+name = "settings-sound"
+file = "assets/settings-sound.png"
+pane = "icon"
