@@ -1,0 +1,5 @@
+details = "Open Settings > Fatigue Reduction to take the edge off the upper mids and treble in three strengths for long listening. The plot shows the response."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Fatigue Reduction editor at Moderate, with the response plot above Strength."

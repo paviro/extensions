@@ -1,0 +1,27 @@
+id = "fatigue-reduction"
+name = "Fatigue Reduction"
+description = "Take the edge off the upper mids and treble with four fixed filters, in three strengths, for long listening."
+version = "0.1.0"
+author = "RevolaOS"
+note = "Ported from Rockbox"
+license = "GPL-3.0-only"
+api = "1.89"
+stability = "beta"
+category = "effects"
+
+[libraries]
+required = ["dsp"]
+
+[[module]]
+name = "main"
+trigger = "always"
+
+[[module]]
+name = "editor"
+trigger = "screen"
+screens = ["editor"]
+
+[[asset]]
+name = "settings-fatigue-reduction"
+file = "assets/settings-fatigue-reduction.png"
+pane = "icon"

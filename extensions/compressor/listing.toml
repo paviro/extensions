@@ -1,0 +1,5 @@
+details = "Open Settings > Compressor to turn loud passages down so quiet ones stay audible. Threshold, Ratio, Knee, Makeup, Attack and Release sit under the transfer curve."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Compressor editor switched on, with the transfer curve above State, Threshold, Ratio, Knee, Makeup, Attack and Release."

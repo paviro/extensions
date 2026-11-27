@@ -1,0 +1,27 @@
+id = "bass-enhancement"
+name = "Bass Enhancement"
+description = "Fuller bass and clearer mids from five fixed filters, scaled by a strength from 25 to 100 %, with the level held under full scale."
+version = "0.1.0"
+author = "RevolaOS"
+note = "Based on Rockbox's bass enhancement"
+license = "GPL-3.0-only"
+api = "1.89"
+stability = "beta"
+category = "effects"
+
+[libraries]
+required = ["dsp"]
+
+[[module]]
+name = "main"
+trigger = "always"
+
+[[module]]
+name = "editor"
+trigger = "screen"
+screens = ["editor"]
+
+[[asset]]
+name = "settings-bass-enhancement"
+file = "assets/settings-bass-enhancement.png"
+pane = "icon"

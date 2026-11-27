@@ -1,0 +1,5 @@
+details = "Open Settings > Bass Enhancement to fill out the bass and clear the mids with five fixed filters at a strength from 25 to 100 %. The plot shows the response."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Bass Enhancement editor at 75 %, with the response plot above Strength and Precut."

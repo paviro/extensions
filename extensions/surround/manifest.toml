@@ -1,0 +1,27 @@
+id = "surround"
+name = "Surround"
+description = "A wider stage for headphones: the right channel arrives a few milliseconds late outside a band you keep in place, with the image recentred."
+version = "0.1.0"
+author = "RevolaOS"
+note = "Based on Rockbox's Haas surround"
+license = "GPL-3.0-only"
+api = "1.89"
+stability = "beta"
+category = "effects"
+
+[libraries]
+required = ["dsp"]
+
+[[module]]
+name = "main"
+trigger = "always"
+
+[[module]]
+name = "editor"
+trigger = "screen"
+screens = ["editor"]
+
+[[asset]]
+name = "settings-surround"
+file = "assets/settings-surround.png"
+pane = "icon"

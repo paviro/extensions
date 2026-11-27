@@ -20,10 +20,15 @@ Regenerate this page with `python3 tools/extension_bitmaps_doc.py`.
 | `appearance` | `settings-moon` | 78x121 | mask8 | - | yes |
 | `appearance` | `settings-theme` | 78x121 | mask8 | - | yes |
 | `balance` | `settings-balance` | 78x121 | mask8 | - | yes |
+| `bass-enhancement` | `settings-bass-enhancement` | 78x121 | mask8 | - | yes |
+| `channels` | `settings-channels` | 78x121 | mask8 | - | yes |
+| `compressor` | `settings-compressor` | 78x121 | mask8 | - | yes |
 | `crossfeed` | `settings-crossfeed` | 78x121 | mask8 | - | yes |
 | `equalizer` | `settings-eq` | 78x121 | mask8 | - | yes |
+| `fatigue-reduction` | `settings-fatigue-reduction` | 78x121 | mask8 | - | yes |
 | `homebrew` | `apps` | 142x87 | bgra8888 | - | no |
 | `night-shift` | `settings-night-shift` | 78x121 | mask8 | - | yes |
 | `playback-log` | `settings-playback-log` | 78x121 | mask8 | - | yes |
 | `reprise` | `settings-info` | 78x121 | mask8 | - | yes |
 | `sound-menu` | `settings-sound` | 78x121 | mask8 | - | yes |
+| `surround` | `settings-surround` | 78x121 | mask8 | - | yes |

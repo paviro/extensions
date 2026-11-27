@@ -1,0 +1,5 @@
+details = "Open Settings > Surround to widen the stage for headphones: the right channel arrives a few milliseconds late outside a band that stays in place. State, Delay and Mix sit under the plot, with Emphasis, Low, High and Side only below them."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Surround editor switched on, with the plot above State, Delay, Mix and the shape values."

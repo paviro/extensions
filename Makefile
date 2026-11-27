@@ -1,9 +1,10 @@
 # SPDX-License-Identifier: GPL-3.0-only
 SDK ?= ../osos-lab/rvx-sdk
 OUT ?= build
-extensions := album-artists appearance balance clicker-modes crossfeed dsp equalizer \
-              eu-volume-limit file-info homebrew iap-auth-bypass night-shift \
-              playback-log playback-queue sound-menu
+extensions := album-artists appearance balance bass-enhancement channels clicker-modes \
+              compressor crossfeed dsp equalizer eu-volume-limit fatigue-reduction file-info \
+              homebrew iap-auth-bypass night-shift playback-log playback-queue sound-menu \
+              surround
 
 .PHONY: all $(extensions)
 all: $(extensions) $(OUT)/assets.json
@@ -27,10 +28,15 @@ check:
 	$(PYTHON) extensions/album-artists/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/appearance/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/balance/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/bass-enhancement/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/channels/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/compressor/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/crossfeed/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/dsp/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/equalizer/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/fatigue-reduction/tests/run.py "$(abspath $(SDK))"
 	$(PYTHON) extensions/file-info/tests/run.py "$(abspath $(SDK))"
+	$(PYTHON) extensions/surround/tests/run.py "$(abspath $(SDK))"
 	@mkdir -p "$(OUT)"
 	$(CC) $(TEST_FLAGS) -Iextensions/shared extensions/night-shift/test.c -o "$(OUT)/test-night-shift"
 	"$(OUT)/test-night-shift"

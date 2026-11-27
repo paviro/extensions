@@ -11,6 +11,11 @@ This repository hosts the source for these RepriseOS extensions and accepts prop
 - [Playback Queue](extensions/playback-queue/) adds Play Next, Play Last and an Up Next screen to edit the queue.
 - [Crossfeed](extensions/crossfeed/) blends a little of each stereo channel into the other for headphone listening. It uses the included [DSP library](extensions/dsp/).
 - [Equalizer](extensions/equalizer/) runs the EQ presets without distortion and adds a Custom preset with five bands. It uses the included [DSP library](extensions/dsp/).
+- [Channels](extensions/channels/) narrows or widens the stereo image, or plays mono, one channel in both ears, karaoke or swapped channels.
+- [Compressor](extensions/compressor/) turns loud passages down so quiet ones stay audible. It uses the included [DSP library](extensions/dsp/).
+- [Surround](extensions/surround/) widens the stage for headphones by delaying the right channel outside a band that stays in place. It uses the included [DSP library](extensions/dsp/).
+- [Bass Enhancement](extensions/bass-enhancement/) fills out the bass and clears the mids with five fixed filters at a chosen strength. It uses the included [DSP library](extensions/dsp/).
+- [Fatigue Reduction](extensions/fatigue-reduction/) takes the edge off the upper mids and treble in three strengths for long listening. It uses the included [DSP library](extensions/dsp/).
 - [Sound Menu](extensions/sound-menu/) adds Settings > Sound with Apple's Volume Limit, EQ and Sound Check rows and the audio extensions' rows after them.
 - [Clicker Modes](extensions/clicker-modes/) lets Settings > Clicker choose the speaker, the headphones, both or off.
 - [iAP Auth Bypass](extensions/iap-auth-bypass/) lets accessories use authentication-gated iAP commands without an Apple authentication chip.

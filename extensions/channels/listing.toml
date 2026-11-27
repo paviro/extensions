@@ -1,0 +1,5 @@
+details = "Open Settings > Channels to narrow or widen the stereo image, or play Mono, one channel in both ears, Karaoke or swapped channels."
+
+[[screenshots]]
+file = "screenshots/editor.png"
+alt = "The Channels editor with the stereo image plot above Mode and Width."

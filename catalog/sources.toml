@@ -68,6 +68,31 @@ repo = "RepriseOS/repriseos-extensions"
 path = "extensions/homebrew"
 tag_prefix = "homebrew/v"
 
+[channels]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/channels"
+tag_prefix = "channels/v"
+
+[compressor]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/compressor"
+tag_prefix = "compressor/v"
+
+[surround]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/surround"
+tag_prefix = "surround/v"
+
+[bass-enhancement]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/bass-enhancement"
+tag_prefix = "bass-enhancement/v"
+
+[fatigue-reduction]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/fatigue-reduction"
+tag_prefix = "fatigue-reduction/v"
+
 [sound-menu]
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/sound-menu"
