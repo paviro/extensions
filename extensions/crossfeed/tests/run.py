@@ -275,7 +275,7 @@ def response_tests(dll):
         h = simple_response(hz)
         for amplitude, expected in (
             (max(abs(r) for _, r in out), abs(h)),
-            (max(abs(l) for l, _ in out), abs(1 - h)),
+            (max(abs(left) for left, _ in out), abs(1 - h)),
         ):
             got = 20 * math.log10(amplitude / 20000)
             assert abs(got - 20 * math.log10(expected)) < 0.1, (hz, got, expected)

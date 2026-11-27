@@ -1,0 +1,13 @@
+{"asset": "settings-accent", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-appearance", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-cover", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-covers", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-moon", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-theme", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "appearance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-balance", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "balance", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-crossfeed", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "crossfeed", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-eq", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "equalizer", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "apps", "bytes": 49444, "depth": 32, "format": 6280, "height": 87, "id": "homebrew", "menu": false, "palette_colors": 0, "preload": "optional", "stride": 568, "width": 142}
+{"asset": "settings-night-shift", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "night-shift", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-playback-log", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "playback-log", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}
+{"asset": "settings-info", "bytes": 9708, "depth": 8, "format": 8, "height": 121, "id": "reprise", "menu": true, "palette_colors": 0, "preload": "optional", "stride": 80, "width": 78}

@@ -48,10 +48,13 @@ jobs:
         env:
           CROSS_COMPILE: ${{ github.workspace }}/toolchains/rockbox-arm/bin/arm-elf-eabi-
         run: |
+          pipx run ruff==0.12.12 check .
+          pipx run ruff==0.12.12 format --check themes tools tests
           make -j8
           make check
           python3 tools/catalog.py preview
           python3 -m unittest discover -s tests
+          python3 -m unittest discover -s themes/tests
       - name: Select tagged package
         if: github.ref_type == 'tag'
         shell: bash

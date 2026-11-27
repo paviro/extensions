@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: GPL-3.0-only
+
+[tool.ruff]
+required-version = "==0.12.12"
+target-version = "py311"
+line-length = 88
+extend-exclude = ["build", ".sdk", ".rockbox", "toolchains"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["fixtures", "rvt"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.ruff.lint.per-file-ignores]
+# Scripts that put another directory on sys.path before importing from it.
+"extensions/*/assets/render.py" = ["E402"]
+"tools/catalog.py" = ["E402"]

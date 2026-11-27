@@ -1,0 +1,18 @@
+RepriseOS themes
+Copyright (C) lgreitis and RepriseOS contributors. GPL-3.0-only.
+
+The rvt compiler and the Classic theme are adapted from the RevolaOS themes
+repository, revision 6d0ea430642b, copyright 2026 The RevolaOS Authors.
+GPL-3.0-only.
+
+Third-party work included:
+
+- The Classic theme's dark background,
+  themes/classic/dark/apple/Background_LightBlue_Image.png, is the RepriseOS
+  core's former themes/dark/background-dark-image.png by lgreitis (5ec8799).
+  Its dark palette comes from the core's former payload/dark_mode.c (01c89f6)
+  by lgreitis and Alex Ball (alexballvideos-netizen). GPL-3.0-only.
+
+No Apple firmware or artwork ships in this directory. The catalog records the
+names, sizes, offsets and checksums of Apple's bitmaps, and Classic's recolour
+rules list the colour values they change; neither holds any pixels.
