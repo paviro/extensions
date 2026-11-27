@@ -8,6 +8,11 @@ repo = "RepriseOS/repriseos-extensions"
 path = "extensions/crossfeed"
 tag_prefix = "crossfeed/v"
 
+[appearance]
+repo = "RepriseOS/repriseos-extensions"
+path = "extensions/appearance"
+tag_prefix = "appearance/v"
+
 [night-shift]
 repo = "RepriseOS/repriseos-extensions"
 path = "extensions/night-shift"

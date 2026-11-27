@@ -81,8 +81,6 @@ class StyleTests(unittest.TestCase):
         )
 
     def test_builtin_accents_equal_the_extension(self):
-        if not STYLE_C.is_file():
-            self.skipTest("the Appearance extension is not in the tree")
         source = STYLE_C.read_text()
         table = re.search(
             r"accents\[RVT_ACCENTS\]\[2\]\[2\]\[4\] = \{(.*?)\};", source, re.S

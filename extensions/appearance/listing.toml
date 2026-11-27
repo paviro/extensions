@@ -1,0 +1,9 @@
+details = "Settings > Appearance, after Brightness, holds Theme, Accent, Dark Mode (Auto, On or Off), Menu Covers and Now Playing Cover. Classic's dark look is derived from the stock artwork on the iPod; other themes are .rvt files in /Reprise/Themes, built with the compiler in the extensions repository. The first load imports the core's former Dark Mode switch."
+
+[[screenshots]]
+file = "screenshots/appearance.png"
+alt = "Settings > Appearance with the Theme, Accent, Dark Mode, Menu Covers and Now Playing Cover rows."
+
+[[screenshots]]
+file = "screenshots/dark-mode.png"
+alt = "The Settings menu in Classic dark: light text on a dark background with the blue accent."

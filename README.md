@@ -2,8 +2,9 @@
 
 This repository hosts the source for these RepriseOS extensions and accepts proposals for the extension catalog.
 
+- [Appearance](extensions/appearance/) adds Dark Mode with Auto, accent colours and themes from `/Reprise/Themes` that recolour the screens and replace the artwork.
 - [Balance](extensions/balance/) adjusts the volume of the left and right channels independently of the main volume.
-- [Night Shift](extensions/night-shift/) warms the display manually or automatically from sunset to sunrise.
+- [Night Shift](extensions/night-shift/) warms the display manually or automatically from sunset to sunrise; its row joins the Appearance menu when that extension runs.
 - [Playback Log](extensions/playback-log/) records listening history for scrobbling and optional detailed reports.
 - [Album Artists](extensions/album-artists/) lists the library by Album Artist, with the Artist as the fallback.
 - [File Info](extensions/file-info/) shows an item's tags and file properties from its context menu.
