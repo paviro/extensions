@@ -95,7 +95,7 @@ def main(argv=None) -> int | None:
     )
     theme_options(preview)
     preview.add_argument(
-        "--firmware", type=Path, required=True, help="osos.bin or osos-cfw.bin"
+        "--firmware", type=Path, required=True, help="osos.bin or reprise.bin"
     )
     preview.add_argument("--out", type=Path, default=Path("dist"))
 
@@ -104,7 +104,7 @@ def main(argv=None) -> int | None:
     )
     recolor.add_argument("png", type=Path, help="<theme>/<appearance>/apple/<Name>.png")
     recolor.add_argument(
-        "--firmware", type=Path, required=True, help="osos.bin or osos-cfw.bin"
+        "--firmware", type=Path, required=True, help="osos.bin or reprise.bin"
     )
     catalog_option(recolor)
 

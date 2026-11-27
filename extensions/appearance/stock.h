@@ -1,11 +1,11 @@
 /* SPDX-License-Identifier: GPL-3.0-only */
 
-/* Stock artwork comes back from the firmware file: /osos-cfw.bin
- * is Apple's image with the core appended, so every bitmap lies there at its
- * catalog offset, unchanged. The file must be the image the iPod booted: it
- * is checked once per session before a switch writes anything, so recovery
- * is possible afterwards, and again after USB disk mode, which may have
- * replaced it. */
+/* Stock artwork comes back from the firmware file,
+ * /Reprise/Firmware/reprise.bin: Apple's image with the core appended, so
+ * every bitmap lies there at its catalog offset, unchanged. The file must be
+ * the image the iPod booted: it is checked once per session before a switch
+ * writes anything, so recovery is possible afterwards, and again after USB
+ * disk mode, which may have replaced it. */
 
 #ifndef STOCK_H
 #define STOCK_H

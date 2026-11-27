@@ -11,7 +11,7 @@ from rvt import bitmaps, derive, inspector, rvtfile
 
 
 class Firmware:
-    """Stock bitmaps read at the catalog's offsets; osos.bin or osos-cfw.bin."""
+    """Stock bitmaps read at the catalog's offsets; osos.bin or reprise.bin."""
 
     def __init__(self, path, catalog):
         self.data = path.read_bytes()

@@ -10,7 +10,7 @@ A theme is a folder compiled into one `.rvt` file. It sets colours, a palette pe
 4. `python3 -m rvt compile mytheme` writes `dist/mytheme/mytheme.rvt` and `report.json`. `--strict` turns warnings into errors.
 5. Copy `mytheme.rvt` to `/Reprise/Themes/` on the iPod. It appears under Settings > Appearance > Theme.
 
-The iPod derives the theme's art from `/osos-cfw.bin`, so that file must be the build that is running; a mismatch leaves the look unchanged and the Theme row reports it.
+The iPod derives the theme's art from `/Reprise/Firmware/reprise.bin`, so that file must be the build that is running; a mismatch leaves the look unchanged and the Theme row reports it.
 
 ```
 mytheme/

@@ -14,7 +14,7 @@
 | `rvt catalog list --extensions [--group ID] [--format FMT]` | One line per extension bitmap: id, asset, size, format, palette entries, menu or bitmap |
 | `rvt catalog show <Name>` | Every catalog field of one Apple bitmap, by name or hex id |
 | `rvt catalog show <id>/<asset>` | Every catalog field of one extension bitmap, and its two hashes |
-| `rvt preview <folder> --firmware FILE` | Renders every derived bitmap of a theme from a decrypted `osos.bin` or the booted `osos-cfw.bin` to `dist/<id>/derived/` |
+| `rvt preview <folder> --firmware FILE` | Renders every derived bitmap of a theme from a decrypted `osos.bin` or the booted `reprise.bin` to `dist/<id>/derived/` |
 | `rvt recolor <png> --firmware FILE` | Turns `<theme>/<appearance>/apple/<Name>.png` into a `recolor` rule file when the PNG is a pure recolour of the stock bitmap |
 
 | Option | On | Does |

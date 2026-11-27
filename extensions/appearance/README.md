@@ -18,7 +18,7 @@ Themes are `<id>.rvt` files in `/Reprise/Themes/`, built with the compiler in th
 
 A theme may have a light appearance, a dark one or both. With only one, Dark Mode shows that one, its row value says which, and the pane says "Theme only supports dark mode" or "Theme only supports light mode". If the chosen theme's file is missing, Classic shows and Theme says "Theme unavailable"; the choice comes back with the file.
 
-A theme that cannot be read leaves the look unchanged. One that fails part way through is undone to the stock light look, and the row the action came from says so. If the stock artwork cannot be restored from `/osos-cfw.bin`, the Appearance row disappears until the next boot. Presses queued during a switch cannot reverse it. Turning the extension off restores the stock artwork.
+A theme that cannot be read leaves the look unchanged. One that fails part way through is undone to the stock light look, and the row the action came from says so. If the stock artwork cannot be restored from `/Reprise/Firmware/reprise.bin`, the Appearance row disappears until the next boot. Presses queued during a switch cannot reverse it. Turning the extension off restores the stock artwork.
 
 ## Auto
 
