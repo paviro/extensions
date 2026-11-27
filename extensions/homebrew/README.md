@@ -2,7 +2,7 @@
 
 Based on the RepriseOS core's [homebrew patch](https://github.com/RepriseOS/repriseos/blob/b9b1c62/payload/homebrew.c), by lgreitis.
 
-Lists apps and games from folders under `/Reprise/` and lets Apple's game runtime start them unsigned. A package is a folder with the program, a `Manifest.plist` and an icon, built with the [eApp SDK](https://github.com/paviro/revola-eapp-sdk).
+Lists apps and games from folders under `/Reprise/` and lets Apple's game runtime start them unsigned. A package is a folder with the program, a `Manifest.plist` and an icon, built with the [eApp SDK](https://github.com/RepriseOS/repriseos/tree/main/eapp-sdk).
 
 | Folder | Appears |
 |---|---|
