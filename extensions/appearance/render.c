@@ -36,9 +36,16 @@ enum {
 /* Which of a bar view's own label colours a draw passes. */
 enum bar_slot { BAR_OTHER, BAR_LABEL, BAR_SELECTED };
 
+/* The stock id of view id `id`: a picture pane copied from an Apple template
+ * gives its views new ids. */
+static uint32_t stock_id(uint32_t id)
+{
+    return RV_HAS(api, ui_stock_view) ? api->ui_stock_view(id) : id;
+}
+
 static uint32_t view_id(uint32_t view)
 {
-    return RV_FIELD(view, View_id, uint32_t);
+    return stock_id(RV_FIELD(view, View_id, uint32_t));
 }
 
 static int same_rgb(const uint8_t *color, const uint8_t *other)

@@ -2052,6 +2052,30 @@ static void classic_mapping(void)
     style_set_accent(ACCENT_DEFAULT);
 }
 
+enum { COPIED_DAY = 0x0dad8001 };
+
+static uint32_t ui_stock_view(uint32_t view)
+{
+    return view == COPIED_DAY ? RES_Alarms_PickDate_Preivew_NumericDay : view;
+}
+
+/* The day number of a copied Calendars pane keeps its stock black in dark
+ * mode, as the stock pane's does; a core without ui_stock_view leaves the id. */
+static void copied_view_text(void)
+{
+    style_set_dark(1);
+    expect_text(black, RES_Alarms_PickDate_Preivew_NumericDay, 0, 0, 0);
+    assert(stock_id(COPIED_DAY) == COPIED_DAY);
+    fake.size = sizeof fake;
+    fake.ui_stock_view = ui_stock_view;
+    assert(stock_id(COPIED_DAY) == RES_Alarms_PickDate_Preivew_NumericDay);
+    assert(stock_id(ORDINARY_VIEW) == ORDINARY_VIEW);
+    expect_text(black, stock_id(COPIED_DAY), 0, 0, 0);
+    fake.size = 0;
+    fake.ui_stock_view = NULL;
+    style_set_dark(0);
+}
+
 static void accent_mapping(void)
 {
     /* Purple recolours accents but leaves Classic light surfaces and text alone. */
@@ -2827,6 +2851,7 @@ int main(void)
     scan_contracts();
     puts("PASS: theme folder");
     classic_mapping();
+    copied_view_text();
     accent_mapping();
     theme_mapping();
     bar_mapping();
